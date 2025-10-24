@@ -45,6 +45,11 @@
 			path = "ios-ci-tahoe-testUITests";
 			sourceTree = "<group>";
 		};
+		C31478992EABCEE10067724B /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		C31478642EABCD2B0067724B = {
 			isa = PBXGroup;
 			children = (
+				C31478992EABCEE10067724B /* .github */,
 				C314786F2EABCD2B0067724B /* ios-ci-tahoe-test */,
 				C314787D2EABCD2D0067724B /* ios-ci-tahoe-testTests */,
 				C31478872EABCD2D0067724B /* ios-ci-tahoe-testUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				C314786F2EABCD2B0067724B /* ios-ci-tahoe-test */,
+				C31478992EABCEE10067724B /* .github */,
 			);
 			name = "ios-ci-tahoe-test";
 			packageProductDependencies = (
